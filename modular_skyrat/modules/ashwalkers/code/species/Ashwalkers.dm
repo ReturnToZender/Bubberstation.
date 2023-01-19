@@ -33,8 +33,8 @@
 
 /datum/component/ash_age
 	/// the amount of minutes after each upgrade
-	var/stage_time = 20 MINUTES
-	/// the current stage of the ash
+	var/stage_time = 10 MINUTES //Actually, on second thought, changing this elsewhere broke this entire segment.
+ 	/// the current stage of the ash
 	var/current_stage = 0
 	/// the time when upgraded/attached
 	var/evo_time = 0

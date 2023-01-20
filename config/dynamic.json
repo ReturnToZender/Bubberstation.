@@ -4,7 +4,7 @@
 	"Roundstart": {
 		"Traitors": {
 			"cost": 8,
-			"scaling_cost": 6,
+			"scaling_cost": 10,
 			"weight": 0,
 			"required_candidates": 1,
 			"minimum_required_age": 0,
@@ -21,7 +21,7 @@
 				10
 			],
 			"antag_cap": {
-				"denominator": 4
+				"denominator": 5
 			},
 			"protected_roles": [
 				"Blueshield",

@@ -524,7 +524,7 @@
 				10
 			],
 			"antag_cap": {
-				"denominator": 12
+				"denominator": 18
 			},
 			"protected_roles": [
 				"Blueshield",
@@ -566,7 +566,7 @@
 				10
 			],
 			"antag_cap": {
-				"denominator": 14
+				"denominator": 20
 			},
 			"protected_roles": [
 				"Blueshield",

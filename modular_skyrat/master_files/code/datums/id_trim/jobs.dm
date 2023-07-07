@@ -53,13 +53,13 @@
 	department_color = COLOR_COMMAND_BLUE
 	subdepartment_color = COLOR_CENTCOM_BLUE // Not the other way around. I think.
 	sechud_icon_state = SECHUD_BLUESHIELD
-	extra_access = list(ACCESS_SECURITY, ACCESS_BRIG, ACCESS_COURT, ACCESS_CARGO, ACCESS_GATEWAY) // Someone needs to come back and order these alphabetically, this is a nightmare
+	extra_access = list(ACCESS_COURT, ACCESS_CARGO, ACCESS_GATEWAY) // Someone needs to come back and order these alphabetically, this is a nightmare
 	minimal_access = list(
-		ACCESS_DETECTIVE, ACCESS_BRIG_ENTRANCE, ACCESS_MEDICAL, ACCESS_CONSTRUCTION, ACCESS_ENGINEERING, ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH,
+		ACCESS_BRIG_ENTRANCE, ACCESS_MEDICAL, ACCESS_CAPTAIN, ACCESS_CONSTRUCTION, ACCESS_ENGINEERING, ACCESS_MAINT_TUNNELS, ACCESS_RESEARCH,
 		ACCESS_RC_ANNOUNCE, ACCESS_COMMAND, ACCESS_WEAPONS,
 	)
-	minimal_wildcard_access = list(ACCESS_CAPTAIN)
-	template_access = list(ACCESS_CAPTAIN, ACCESS_CHANGE_IDS)
+	minimal_wildcard_access = list()
+	template_access = list(ACCESS_CAPTAIN)
 
 /datum/id_trim/job/nanotrasen_consultant
 	assignment = "Nanotrasen Consultant"
